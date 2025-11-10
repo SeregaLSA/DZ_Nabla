@@ -5,7 +5,7 @@
 }
 
 .container-header{
-    width: 1920px;
+    width: auto;
     margin: 0 auto;   
     background-color: #DCE0E9; 
 }
@@ -62,8 +62,23 @@
 }
 
 
-.container-1{
+.container__title{
     width: 1296px;
     margin: 0 auto;
     background-color: #C7E3E9;
+}
+
+
+.footer{
+    width: auto;
+    margin: 0 auto;   
+    background-color: #DCE0E9; 
+}
+.footer__container{
+    width: 1296px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    display: flex;
+    /*justify-content: center;*/
+    background-color: #DCE0E9;
 }
