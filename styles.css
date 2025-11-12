@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    width: auto;
+    background-color: #DCE0E9;
+}
+
+.header__block{
+    display: flex;
+    width: 1296px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.header__logo{
+    padding: 26px 0;
+}
+
+.header__nav{
+    padding: 28px 0;
+}
+.header__nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header__nav-text {
+    text-decoration: none;
+    color: #040062;
+
+}
+
+.header__button{
+    margin-left: auto;
+    padding: 18px 0;
+}
+.header__button-style {
+    padding: 10px 20px;
+    background-color: #0013FF;
+    color: white;
+    border: 1px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
