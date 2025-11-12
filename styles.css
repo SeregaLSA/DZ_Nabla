@@ -35,6 +35,9 @@
 .header__nav-text {
     text-decoration: none;
     color: #040062;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 
@@ -52,4 +55,39 @@
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+/* header__end */
+
+/* main block-1 */
+.block-1{
+    display: flex;
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.block-1__img{
+    background-color: #FEF1EF;
+}
+
+.block-1__img-style{
+    padding: 70px 207px;
+    border-radius: 20px;
+}
+
+.block-1__title{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    color: #040062;
+    line-height: 60px;
+    padding: 170px 100px 0 100px;
+}
+
+.block-1__text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6D758D;
+    padding: 32px 60px 0 100px;
 }
