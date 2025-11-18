@@ -58,76 +58,122 @@
 }
 /* header__end */
 
+/* main */
+
 .main{
-    width: 1304px;
+    width: 1296px;
     margin: 0 auto;
 }
-/* main block-1 */
-.block-1{
-    display: flex; 
-}
 
-.block-1__img{
-    background-color: #FEF1EF;
-}
-
-.block-1__img-style{
-    padding: 70px 207px;
-    border-radius: 20px;
-}
-
-.block-1__title{
-    font-family: 'Abril Fatface', cursive;
-    font-size: 48px;
-    font-weight: 400;
-    color: #040062;
-    line-height: 60px;
-    padding: 170px 100px 0 100px;
-}
-
-.block-1__text{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    color: #6D758D;
-    padding: 32px 60px 0 100px;
-}
-
-/* main block-1 */
-
-/* main block-2 */
-
-.block-2{
-    display: flex; 
-}
-
-.block-2__img{
+/* section health */
+.health{
     background-color: #C7E3E9;
 }
 
-.block-2__img-style{
-    padding: 70px 207px;
+.health__container{
+    position: relative;
 }
 
-.block-2__title{
-    font-family: 'Abril Fatface', cursive;
+.health__title-block{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 0 90px;
+}
+
+h1.health__title{
+    display: flex;
+    flex-direction: column;
+    font-family: Abril Fatface, cursive;
+    color: #040062;
+    text-align: center;
+}
+.health__title-text-1{
+    font-size: 60px;
+    line-height: 100%;
+}
+.health__title-text-2{
+    font-size: 80px;
+    line-height: 100%;
+}
+.health__title-text-3{
+    font-size: 110px;
+    line-height: 100%;
+}
+.health__title-img{
+    max-width: 506px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.health__img-1{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    max-width: 335px;
+    height: auto;
+}
+.health__img-2{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    max-width: 341px;
+    height: auto;
+}
+/* section health */
+.content{
+    width: 1296px;
+    margin-top: 120px;
+}
+.content__block{
+    display: flex;
+    margin: 0 auto;
+}
+.content__block-img{
+    width: 50%;
+    height: auto;
+}
+.block-img__color-1{
+    background-color: #FEF1EF;
+}
+.block-img__style{
+    display: flex;
+    max-width: 648px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.content__block-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.block-info__title{
+    font-family: Abril Fatface, cursive;
     font-size: 48px;
     font-weight: 400;
-    color: #040062;
     line-height: 60px;
-    padding: 170px 293px 0 60px;
+    color: #040062;
+    padding: 170px 100px 0 100px;
 }
-
-.block-2__text{
+.block-info__text{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
     color: #6D758D;
-    padding: 32px 85px 0 60px;
+    padding: 0 100px;
 }
-/* main block-2 */
+.block-reverse{
+    flex-direction: row-reverse;
+}
+.block-img__color-2{
+    background-color: #C7E3E9;
+}
+/* block__content */
+
+
+/* block__content */
 
 /* footer */
 .footer{
