@@ -14,7 +14,8 @@
 
 .header__block{
     display: flex;
-    width: 1296px;
+    width: calc(100% - 30px * 2);
+    max-width: 1296px;
     margin: 0 auto;
     gap: 50px;
 }
@@ -56,12 +57,60 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+@media screen and (max-width: 700px)  {
+    .header__logo{
+        padding: 20px 0;
+    }
+
+    .header__block{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .header__nav{
+        padding: 8px 0;
+    }
+    .header__nav-list {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+    .header__button{
+        margin: 0 auto;
+    }
+    .header__block{
+        width: calc(100% - 15px * 2);
+    }
+}
+@media screen and (max-width: 370px)  {
+    .header__block{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .header__nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .header__nav-text {
+        font-size: 24px;
+    }
+    .header__button{
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+}
+
 /* header__end */
 
 /* main */
 
 .main{
-    width: 1296px;
+    max-width: 1296px;
+    width: calc(100% - 30px * 2);
     margin: 0 auto;
 }
 
@@ -102,7 +151,8 @@ h1.health__title{
 }
 .health__title-img{
     max-width: 506px;
-    height: 60px;
+    max-height: 100%;
+    width: calc(100% - 15px * 2);
     margin: 0 auto;
 }
 
@@ -110,19 +160,56 @@ h1.health__title{
     position: absolute;
     bottom: 0px;
     left: 30px;
-    max-width: 335px;
+    width: 335px;
     height: auto;
 }
 .health__img-2{
     position: absolute;
     bottom: 0;
     right: 30px;
-    max-width: 341px;
+    width: 341px;
     height: auto;
 }
+
+@media screen and (max-width:1360px){
+    .health__img-1{
+        width: 250px;
+        height: auto;
+    }
+    .health__img-2{
+        width: 250px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1200px){
+    .health__title-img{
+        width: 400px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1000px){
+    .health__title-block{
+        gap: 80px;
+        padding: 50px 0 60px;
+    }
+    .main{
+        max-width: px;
+        width: calc(100% - 30px * 2);
+        margin: 0 auto;
+    }
+    .health__title-img{
+        width: 300px;
+        height: auto;
+    }
+}
+    
+
 /* section health */
+
+
 .content{
-    width: 1296px;
+    max-width: 1296px;
+    width: calc(100% - 30px * 2);
     margin-top: 120px;
 }
 .content__block{
@@ -170,10 +257,7 @@ h1.health__title{
 .block-img__color-2{
     background-color: #C7E3E9;
 }
-/* block__content */
 
-
-/* block__content */
 
 /* footer */
 .footer{
@@ -240,3 +324,14 @@ h1.health__title{
 .footer__end-text-position{
     margin-left: auto;
 }
+
+footer h3 a{
+    text-decoration: none;
+    color: #040062;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #6D758D;
+}
+/* footer */
